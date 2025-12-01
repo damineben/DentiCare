@@ -16,7 +16,7 @@ public class Consultation {
     private BaseEntity baseInfo;
 
     private Long idConsultation;
-    private LocalDate Date;
+    private LocalDate date;
     private ConsultationStatutEnum statut;
     private String observationMedecin;
 }

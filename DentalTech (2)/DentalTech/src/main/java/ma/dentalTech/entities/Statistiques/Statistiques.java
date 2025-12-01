@@ -17,7 +17,7 @@ public class Statistiques {
 
     private Long id;
     private String nom;
-    private StatistiqueCategorieEnum catégorie;
+    private StatistiqueCategorieEnum categorie;
     private Double chiffre;
     private LocalDate dateCalcul;
 }

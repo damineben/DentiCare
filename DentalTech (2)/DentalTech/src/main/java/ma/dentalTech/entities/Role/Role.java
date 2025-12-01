@@ -13,6 +13,6 @@ import lombok.Builder;
 @NoArgsConstructor
 public class Role {
     private Long idRole;
-    private RoleEnum libellé;
-    private List<String> privilèges;
+    private RoleEnum libelle;
+    private List<String> privileges;
 }

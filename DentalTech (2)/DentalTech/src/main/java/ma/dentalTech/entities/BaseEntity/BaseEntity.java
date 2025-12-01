@@ -13,8 +13,8 @@ import lombok.Builder;
 @NoArgsConstructor
 public class BaseEntity {
     private Long idEntite;
-    private LocalDate dateCréation;
-    private LocalDateTime dateDernièreModification;
-    private String modifiéPar;
-    private String crééPar;
+    private LocalDate dateCreation;
+    private LocalDateTime dateDerniereModification;
+    private String modifiePar;
+    private String creePar;
 }

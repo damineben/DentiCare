@@ -17,7 +17,7 @@ public class Facture {
 
     private Long idFature;
     private Double totaleFacture;
-    private Double totalePayé;
+    private Double totalePaye;
     private Double Reste;
     private FactureStatutEnum statut;
     private LocalDateTime dateFacture;

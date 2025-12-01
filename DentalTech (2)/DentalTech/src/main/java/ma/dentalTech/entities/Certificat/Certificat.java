@@ -17,6 +17,6 @@ public class Certificat {
     private Long idCertif;
     private LocalDate dateDebut;
     private LocalDate dateFin;
-    private int durée;
+    private int duree;
     private String noteMedecin;
 }

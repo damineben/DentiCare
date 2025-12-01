@@ -14,7 +14,7 @@ public class Prescription {
     private BaseEntity baseInfo;
 
     private Long idPr;
-    private Integer quantité;
-    private String fréquence;
-    private Integer duréeEnJours;
+    private Integer quantite;
+    private String frequence;
+    private Integer dureeEnJours;
 }

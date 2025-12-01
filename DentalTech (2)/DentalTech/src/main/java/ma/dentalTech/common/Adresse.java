@@ -19,5 +19,5 @@ public class Adresse {
     private String ville;
     private String codePostal;
     private String région;
-    private String pays; // Souvent Maroc, mais bonne pratique de l'inclure
+    private String pays;
 }

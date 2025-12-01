@@ -2,13 +2,14 @@ package ma.dentalTech.entities.Notification;
 
 import ma.dentalTech.entities.BaseEntity.BaseEntity;
 import ma.dentalTech.entities.enums.NotificationTypeEnum;
-import ma.dentalTech.entities.enums.PrioritéEnum;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.Builder;
+import ma.dentalTech.entities.enums.PrioriteEnum;
 
 @Data
 @Builder
@@ -23,6 +24,6 @@ public class Notification {
     private LocalDate date;
     private LocalTime time;
     private NotificationTypeEnum type;
-    private PrioritéEnum priorité;
+    private PrioriteEnum priorité;
     private String description;
 }

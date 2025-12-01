@@ -14,7 +14,7 @@ public class Acte {
     private BaseEntity baseInfo;
 
     private Long idActe;
-    private String libellé;
-    private String catégorie;
+    private String libelle;
+    private String categorie;
     private Double prixDeBase;
 }
